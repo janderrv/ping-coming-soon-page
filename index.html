@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+  <head onload="checkScreen()">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -17,6 +17,7 @@
     />
 
     <title>Frontend Mentor | Ping coming soon page</title>
+    <script src="js/script.js"></script>
   </head>
   <body>
     <div class="container">
@@ -35,8 +36,11 @@
             id="email"
             placeholder="Your email address..."
           />
-          <button type="button">Notify Me</button>
+          <button type="button" onclick="validate()">
+            Notify Me
+          </button>
         </form>
+        <div id="error"></div>
         <div class="img">
           <img
             src="/images/illustration-dashboard.png"

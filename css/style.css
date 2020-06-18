@@ -132,6 +132,15 @@ footer p {
   color: hsl(0, 0%, 59%);
 }
 
+#error {
+  font-size: 12px;
+  color: red;
+  margin-right: 30%;
+  margin-top: 0.5%;
+  height: 12px;
+  font-style: italic;
+}
+
 @media screen and (max-width: 900px) {
   body {
     font-size: 16px;
