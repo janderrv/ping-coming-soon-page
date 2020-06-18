@@ -131,3 +131,58 @@ footer p {
   font-size: 16px;
   color: hsl(0, 0%, 59%);
 }
+
+@media screen and (max-width: 900px) {
+  body {
+    font-size: 16px;
+  }
+  .container {
+    max-width: 900px;
+  }
+
+  .logo {
+    padding: 10%;
+    padding-top: 20%;
+  }
+
+  header h1,
+  header p {
+    padding-bottom: 4%;
+  }
+
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  main form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  main input {
+    width: 80%;
+    margin-top: 2%;
+  }
+  main button {
+    width: 80%;
+    margin-top: 2%;
+    margin-left: 0;
+  }
+  footer {
+    margin: 10%;
+  }
+  footer p {
+    font-size: 0.8rem;
+  }
+  .img img {
+    max-width: 90%;
+  }
+  .media {
+    margin-bottom: 5%;
+  }
+  .media img {
+    max-width: 8%;
+  }
+}
